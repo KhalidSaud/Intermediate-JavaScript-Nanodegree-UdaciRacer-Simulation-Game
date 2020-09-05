@@ -35,7 +35,7 @@ To run the server, locate your operating system and run the associated command i
 | Your OS               | Command to start the API                                  |
 | --------------------- | --------------------------------------------------------- |
 | Mac                   | `ORIGIN_ALLOWED=http://localhost:3000 ./bin/server-osx`   |
-| Windows               | `ORIGIN_ALLOWED=http://localhost:3000 ./bin/server.exe`   |
+| Windows               | `ORIGIN_ALLOWED=http://localhost:3000 ./bin/server.exe`   `.\bin\server ORIGIN_ALLOWED=http://localhost:3000` |
 | Linux (Ubuntu, etc..) | `ORIGIN_ALLOWED=http://localhost:3000 ./bin/server-linux` |
 
 If you are on an older OS and the above command doesn't run for you - or if you know that you are running a 32bit system - add `-32` to the end of the file name. For reference, here are the same commands but for a 32-bit system.
